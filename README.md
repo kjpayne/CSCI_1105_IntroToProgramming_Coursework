@@ -1,4 +1,4 @@
 # CSCI_1105_IntroToProgramming_Coursework
 
-This will contan my assignments for this class
-There is no assignments in here yet
+This will contain my assignments for this class
+This now has assignment files called: Math, Exercise_1_9, and Exercise_1_13
