@@ -15,14 +15,14 @@ public class Exercise_2_1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
     
-    // Entering a Celsius degree
-    System.out.print("Enter a degree in Celsius: ");
-    double celsius = input.nextDouble();
+        // Entering a Celsius degree
+        System.out.print("Enter a degree in Celsius: ");
+        double celsius = input.nextDouble();
     
-    // Converting Celsius into Fahrenheit
-    double fahrenheit = (9.0 / 5) * celsius + 32 ;
+        // Converting Celsius into Fahrenheit
+        double fahrenheit = (9.0 / 5) * celsius + 32 ;
     
-    // Display convertion
-    System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
+        // Display convertion
+        System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
     }
 }
