@@ -27,12 +27,8 @@ public class Exercise_3_19 {
         double sideC = input.nextDouble();
         
         //Finding the perimeter
-        if (sideA + sideB > sideC) {
-            if (sideA + sideC > sideB) {
-                if (sideB + sideC > sideA) {
-                    System.out.println("The perimeter is " + (sideA + sideB + sideC));
-                }
-            }
+        if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
+              System.out.println("The perimeter is " + (sideA + sideB + sideC));
         }
         else {
             System.out.println("Input is not valid");
