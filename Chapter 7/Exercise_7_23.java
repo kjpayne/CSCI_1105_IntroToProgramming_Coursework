@@ -13,28 +13,24 @@ public class Exercise_7_23 {
         
         //Array for lockers
         boolean[] lockers = new boolean[100];
-        int count = 0;
         
         //Opening and closing lockers
-        for (int i = 0; i < lockers.length; i++) {
-            for (int j = 0; j < lockers.length; j++) {
-                if (lockers[j] == false) {
-                    lockers[j] = true;
-                    j += count;
+        for (int i = 1; i <= lockers.length; i++) {
+            for (int j = i; j <= lockers.length; j += i) {
+                if (lockers[j - 1] == false) {
+                    lockers[j - 1] = true;
                 }
                 else {
-                    lockers[j] = false;
-                    j += count;
+                    lockers[j - 1] = false;
                 }
             }
-            count++;
         }
         
         //Displaying open lockers
         System.out.println("The open lockers are: ");
         for (int i = 0; i < lockers.length; i++) {
             if (lockers[i] == true) {
-                System.out.print(i + " ");
+                System.out.print((i + 1)+ " ");
             }
         }
     }
