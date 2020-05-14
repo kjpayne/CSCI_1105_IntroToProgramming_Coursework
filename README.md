@@ -2,4 +2,4 @@
 
 This will contain my assignments for this class.
 
-Assignment folders in GitHub: Chapters 1-6
+Assignment folders in GitHub: Chapters 1-8
