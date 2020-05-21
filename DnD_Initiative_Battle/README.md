@@ -9,7 +9,7 @@ I was motivated to build this program to keep battles fun without pauses of a di
 of battle, the better the experience.
 
 ## How To Run
-[The beginning is where you enter the number of fighters and their stats mentioned above](Capture_Run_1)
+All that is needed is the file called Initiative_Battle in the src folder.
 
 ## Code Example
 The following code is how the attack roll and damage roll is done.
