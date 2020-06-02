@@ -59,7 +59,7 @@ public class Initiative_Battle {
             int attacker = 0;
             int attacked = 0;
             while (correctAttacker == true) {
-                System.out.println("Who's attack? Enter 1 through " + numOfFighters + ": ");
+                System.out.println("Who's attacking? Enter 1 through " + numOfFighters + ": ");
                 attacker = input.nextInt();
                 
                 if (attacker > numOfFighters || attacker == 0) {
